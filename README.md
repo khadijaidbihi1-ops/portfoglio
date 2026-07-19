@@ -1,1 +1,9 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Project Case Study | Your Name</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="../css/style.css"></head><body><header class="site-header"><div class="container nav-wrap"><a href="../index.html" class="logo">Your Name<span>.</span></a><nav class="main-nav"><a href="../projects.html">Back to Projects</a><a href="../index.html#contact" class="btn btn-dark btn-small">Contact</a></nav></div></header><main><section class="page-hero section"><div class="container"><p class="eyebrow">Case study</p><h1>Project Title</h1><p>Replace this page with the real project name, screenshots, problem, process, technologies, challenges and final result.</p></div></section><section class="section"><div class="container"><div class="project-thumb thumb-mehek" style="height:420px;border-radius:22px"><span>Project Preview</span></div><div class="about-grid" style="margin-top:65px"><div><p class="eyebrow">Overview</p><h2 style="font-family:'DM Sans';font-size:2.4rem">Project summary</h2></div><div><p style="color:#666;margin-bottom:20px">Describe what the project does, who it is for and which problem it solves.</p><p><strong>Technologies:</strong> HTML, CSS, JavaScript, Python or SQL</p></div></div></div></section></main><footer class="site-footer"><div class="container footer-bottom"><p>© <span id="year"></span> Your Name.</p></div></footer><script src="../js/main.js"></script></body></html>
+# Khadija Idbihi Portfolio — Version 1
+
+Open `index.html` or use Live Server in VS Code.
+
+## Update before publishing
+- Replace `images/profile-placeholder.svg` with the final professional photo.
+- Replace `your-email@example.com` in `index.html`.
+- Replace `assets/cv-placeholder.txt` with the final PDF CV.
+- GitHub is intentionally shown as “Coming soon”.

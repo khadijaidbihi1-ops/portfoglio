@@ -1,2 +1,1 @@
-Replace this file with your CV PDF and update the links in index.html and projects.html.
-Suggested filename: cv-your-name.pdf
+Replace this file with Khadija Idbihi's final PDF CV, then update the download links in index.html.
