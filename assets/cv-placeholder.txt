@@ -1,0 +1,2 @@
+Replace this file with your CV PDF and update the links in index.html and projects.html.
+Suggested filename: cv-your-name.pdf
