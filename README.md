@@ -10,7 +10,7 @@ Personal portfolio website for Khadija Idbihi, organised as separate pages rathe
 - `project.html` — reusable case-study template
 - `experience.html` — professional experience and transferable skills
 - `learning.html` — education, courses and certifications
-- `unison.html` — Unison IT Solutions venture page
+- `kaxio.html` — Kaxio IT Solutions venture page
 - `contact.html` — contact details and CV link
 
 ## Adding a new project
@@ -21,9 +21,9 @@ Open `js/data.js` and add another object to `portfolioProjects`. Set a category 
 
 Open `js/data.js` and add another object to `learningItems` with `title`, `provider`, `date`, `area`, and `courseUrl`. It will appear automatically on the Education & Learning page.
 
-## Updating Unison links
+## Updating Kaxio links
 
-When the business website and social accounts launch, replace the placeholder links in `unison.html` for Official Website, TikTok, Instagram and Facebook.
+When the business website and social accounts launch, replace the placeholder links in `kaxio.html` for Official Website, TikTok, Instagram and Facebook.
 
 ## Local preview
 
