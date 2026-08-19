@@ -6,7 +6,10 @@ if (grid) {
       <div>
         <span class="learning-area">${item.area}</span>
         <h2>${item.title}</h2>
-        <p>${item.provider} · ${item.date}</p>
+        <p class="learning-provider"><span class="provider-mark">C_</span>${item.provider} · ${item.date}</p>
+        <div class="learning-links">
+          <a href="${item.courseUrl}" target="_blank" rel="noopener">View course on Codecademy ↗</a>
+        </div>
       </div>
     </article>`).join('');
 }
