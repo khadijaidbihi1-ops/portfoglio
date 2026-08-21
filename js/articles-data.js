@@ -14,20 +14,21 @@ const portfolioArticles = [
     "tags": [
       "Artificial Intelligence",
       "Future of Work",
-      "Human–AI Collaboration",
+      "Human and AI Collaboration",
       "Innovation"
     ],
     "coverLabel": "HUMAN × AI",
     "coverTheme": "human-ai",
+    "coverImage": "./images/articles/human-ai-cover.png",
     "published": true,
     "content": [
       {
         "type": "lead",
-        "text": "A reflection on work, human imagination, scientific discovery and the possibilities of human–AI collaboration."
+        "text": "A reflection on work, human imagination, scientific discovery and the possibilities of collaboration between humans and AI."
       },
       {
         "type": "dedication",
-        "text": "To A. — For your ability, dedication and imagination. Keep believing in what you can create."
+        "text": "To A. For your ability, dedication and imagination. Keep believing in what you can create."
       },
       {
         "type": "h2",
@@ -112,11 +113,11 @@ const portfolioArticles = [
       },
       {
         "type": "p",
-        "text": "AlphaFold is a powerful example. Understanding the three-dimensional structure of proteins is fundamental across biology and medicine, while experimentally determining those structures can require substantial time and resources. AlphaFold uses AI to predict a protein’s 3D structure from its amino-acid sequence. The AlphaFold Protein Structure Database now provides open access to more than 200 million predicted structures for scientific research."
+        "text": "AlphaFold is a powerful example. Understanding the three dimensional structure of proteins is fundamental across biology and medicine, while experimentally determining those structures can require substantial time and resources. AlphaFold uses AI to predict a protein’s 3D structure from its amino acid sequence. The AlphaFold Protein Structure Database now provides open access to more than 200 million predicted structures for scientific research."
       },
       {
         "type": "p",
-        "text": "Something similar is beginning to happen in drug development. In 2025, Nature Medicine published the results of a randomized phase 2a trial of rentosertib, a small-molecule TNIK inhibitor for idiopathic pulmonary fibrosis whose target and molecule were discovered using generative AI."
+        "text": "Something similar is beginning to happen in drug development. In 2025, Nature Medicine published the results of a randomized phase 2a trial of rentosertib, a small molecule TNIK inhibitor for idiopathic pulmonary fibrosis whose target and molecule were discovered using generative AI."
       },
       {
         "type": "p",
@@ -136,11 +137,11 @@ const portfolioArticles = [
       },
       {
         "type": "p",
-        "text": "GraphCast, a machine-learning weather forecasting system developed by Google DeepMind and published in Science, showed that AI could produce global ten-day forecasts rapidly and outperform a leading traditional deterministic forecasting system across most of the variables and lead times evaluated in the study."
+        "text": "GraphCast, a machine learning weather forecasting system developed by Google DeepMind and published in Science, showed that AI could produce global ten day forecasts rapidly and outperform a leading traditional deterministic forecasting system across most of the variables and lead times evaluated in the study."
       },
       {
         "type": "p",
-        "text": "Better forecasts are not simply about knowing whether it will rain tomorrow. They can support preparation for extreme weather, agriculture, renewable-energy planning and resource management. The same ability to explore large spaces of possibilities can be applied to new materials, energy efficiency, power grids and waste reduction."
+        "text": "Better forecasts are not simply about knowing whether it will rain tomorrow. They can support preparation for extreme weather, agriculture, renewable energy planning and resource management. The same ability to explore large spaces of possibilities can be applied to new materials, energy efficiency, power grids and waste reduction."
       },
       {
         "type": "quote",
@@ -168,7 +169,7 @@ const portfolioArticles = [
       },
       {
         "type": "p",
-        "text": "This is why I believe the future of technology should be less about competition and more about collaboration — not only collaboration between humans and AI, but collaboration between humans through AI."
+        "text": "This is why I believe the future of technology should be less about competition and more about collaboration, not only between humans and AI, but also between humans through AI."
       },
       {
         "type": "quote",
@@ -192,7 +193,7 @@ const portfolioArticles = [
       },
       {
         "type": "p",
-        "text": "But one detail remains significant: AI and big data, networks and cybersecurity, and technological literacy are among the fastest-growing skill areas, while creative thinking, resilience, flexibility and agility remain critical human capabilities."
+        "text": "But one detail remains significant: AI and big data, networks and cybersecurity, and technological literacy are among the fastest growing skill areas, while creative thinking, resilience, flexibility and agility remain critical human capabilities."
       },
       {
         "type": "h2",
@@ -262,15 +263,15 @@ const portfolioArticles = [
             "url": "https://alphafold.ebi.ac.uk/"
           },
           {
-            "label": "Zhang, K. et al. (2025). Artificial intelligence in drug development. Nature Medicine, 31, 45–59.",
+            "label": "Zhang, K. et al. (2025). Artificial intelligence in drug development. Nature Medicine, 31, 45 59.",
             "url": "https://doi.org/10.1038/s41591-024-03434-4"
           },
           {
-            "label": "Xu, Z. et al. (2025). A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial. Nature Medicine, 31, 2602–2610.",
+            "label": "Xu, Z. et al. (2025). A generative AI-discovered TNIK inhibitor for idiopathic pulmonary fibrosis: a randomized phase 2a trial. Nature Medicine, 31, 2602 2610.",
             "url": "https://doi.org/10.1038/s41591-025-03743-2"
           },
           {
-            "label": "Lam, R. et al. (2023). Learning skillful medium-range global weather forecasting. Science, 382(6677), 1416–1421.",
+            "label": "Lam, R. et al. (2023). Learning skillful medium-range global weather forecasting. Science, 382(6677), 1416 1421.",
             "url": "https://doi.org/10.1126/science.adi2336"
           }
         ]
@@ -293,6 +294,7 @@ const portfolioArticles = [
     ],
     "coverLabel": "ALGORITHMIC CHILDHOOD",
     "coverTheme": "algorithmic-childhood",
+    "coverImage": "./images/articles/childhood-algorithmic-environments-cover.png",
     "published": true,
     "content": [
       {

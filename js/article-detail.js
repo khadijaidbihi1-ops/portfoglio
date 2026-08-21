@@ -34,12 +34,28 @@ if (!article) {
   document.querySelector('[data-article-subtitle]').textContent = article.subtitle || article.excerpt;
   document.querySelector('[data-article-date]').textContent = date;
   document.querySelector('[data-article-readtime]').textContent = article.readTime;
-  document.querySelector('[data-article-cover-label]').textContent = article.coverLabel || article.category;
   document.querySelector('[data-article-tags]').innerHTML = article.tags.map(tag => `<span>${esc(tag)}</span>`).join('');
 
-  const band = document.querySelector('.article-cover-band');
-  if (band && article.coverTheme) band.classList.add(`article-cover-${article.coverTheme}`);
+  const coverWrap = document.querySelector('[data-article-cover-wrap]');
+  const coverImage = document.querySelector('[data-article-cover-image]');
+  if (coverWrap && coverImage && article.coverImage) {
+    coverImage.src = article.coverImage;
+    coverImage.alt = `${article.title} article cover`;
+  } else if (coverWrap) {
+    coverWrap.hidden = true;
+  }
+
 
   const body = document.querySelector('[data-article-body]');
   body.innerHTML = article.content.map(renderBlock).join('');
+}
+
+
+const articleMenuToggle = document.querySelector('.article-menu-toggle');
+const articleSimpleNav = document.querySelector('.article-simple-nav');
+if (articleMenuToggle && articleSimpleNav) {
+  articleMenuToggle.addEventListener('click', () => {
+    const open = articleSimpleNav.classList.toggle('open');
+    articleMenuToggle.setAttribute('aria-expanded', String(open));
+  });
 }
