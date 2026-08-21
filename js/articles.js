@@ -4,10 +4,13 @@ function formatArticleDate(value) {
 }
 
 function articleCard(article) {
+  const theme = article.coverTheme ? ` article-cover-${article.coverTheme}` : '';
   return `
     <article class="article-card">
-      <a class="article-card-cover" href="./article.html?id=${article.id}" aria-label="Read ${article.title}">
-        <span>${article.coverLabel || article.category}</span>
+      <a class="article-card-cover${theme}" href="./article.html?id=${article.id}" aria-label="Read ${article.title}">
+        <span class="article-cover-kicker">${article.category}</span>
+        <strong>${article.coverLabel || article.title}</strong>
+        <i aria-hidden="true"></i>
       </a>
       <div class="article-card-body">
         <div class="article-card-meta"><span>${article.category}</span><span>${formatArticleDate(article.date)}</span></div>
