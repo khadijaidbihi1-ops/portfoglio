@@ -10,12 +10,18 @@ Personal portfolio website for Khadija Idbihi, organised as separate pages rathe
 - `project.html` — reusable case-study template
 - `experience.html` — professional experience and transferable skills
 - `learning.html` — education, courses and certifications
+- `articles.html` — automatically generated articles index
+- `article.html` — reusable individual article template
 - `kaxio.html` — Kaxio IT Solutions venture page
 - `contact.html` — contact details and CV link
 
 ## Adding a new project
 
 Open `js/data.js` and add another object to `portfolioProjects`. Set a category of `data`, `web`, or `python`, add the project image to `images/`, and set `featured: true` only if it should also appear on the homepage. The Projects page and case-study page are generated from the same data object.
+
+## Adding a new article
+
+Open `js/articles-data.js`, duplicate an existing article object, edit its metadata and content blocks, and set `published: true` when ready. The Articles page, individual article page and homepage writing preview update automatically. See `ARTICLES_GUIDE.md` for the full editing workflow.
 
 ## Adding a new course
 

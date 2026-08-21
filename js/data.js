@@ -1,5 +1,24 @@
 const portfolioProjects = [
   {
+    id: 'london-tech-job-market-analyzer',
+    title: 'London Tech Job Market Analyzer',
+    category: 'data',
+    categoryLabel: 'Data Analytics',
+    year: '2026',
+    featured: true,
+    status: 'Completed',
+    summary: 'An end-to-end Python data product that turns London technology job adverts into interactive market intelligence on demand, salaries, entry-level access and skill signals.',
+    technologies: ['Python', 'Pandas', 'Streamlit', 'Plotly', 'Adzuna API', 'ONS', 'GitHub Actions'],
+    image: './images/london-tech-job-analyzer-cover.jpg',
+    imageAlt: 'London Tech Job Market Analyzer Streamlit dashboard showing market filters and role-level job metrics.',
+    overview: 'This project combines API integration, data cleaning, classification, analysis and deployment in one maintainable workflow. It collects London technology job adverts through the Adzuna API, standardises roles and seniority, analyses salary and hiring demand, detects skill signals using a controlled taxonomy, and exposes the results through an interactive Streamlit dashboard. ONS reference data adds official labour-market context, while monthly snapshots support historical analysis as the dataset grows.',
+    challenge: 'Job adverts are difficult to compare because employers use inconsistent titles, seniority language, salary formats and skill terminology. The challenge was to transform those fragmented records into a consistent analytical model without hiding important data-quality limitations.',
+    process: ['Defined a controlled role taxonomy and skills dictionary to make inconsistent job-advert language comparable', 'Built an Adzuna API collection pipeline and separated raw, processed and reference data for traceability', 'Normalised roles, seniority and salary fields, then created market, accessibility, employer and skills analyses in Python and Pandas', 'Built the interactive Streamlit and Plotly dashboard, added period filters, a Career Advisor and monthly snapshot history', 'Added data-quality checks, tests, GitHub version control, scheduled update workflow and Streamlit Community Cloud deployment'],
+    outcomes: ['Interactive public dashboard covering demand, salaries, career accessibility, hiring activity and skill signals', 'Explainable Career Advisor that compares a user skill profile with detected requirements for a target role', 'Historical snapshot structure supporting last-month, quarterly, six-month and annual views as data accumulates', 'Public GitHub repository with modular pipeline, tests, documentation and automated monthly refresh workflow'],
+    github: 'https://github.com/khadijaidbihi1-ops/london-tech-job-analyzer',
+    live: 'https://london-tech-job-analyzer.streamlit.app/'
+  },
+  {
     id: 'mehek-retail-sales-analysis',
     title: 'MEHEK Retail Sales Analysis',
     category: 'data',

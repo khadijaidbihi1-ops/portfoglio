@@ -36,3 +36,21 @@ const featuredGrid = document.querySelector('[data-featured-projects]');
 if (featuredGrid && typeof portfolioProjects !== 'undefined') {
   featuredGrid.innerHTML = portfolioProjects.filter(p => p.featured).slice(0, 3).map(p => projectCard(p, true)).join('');
 }
+
+
+function formatHomeArticleDate(value) {
+  const date = new Date(`${value}T12:00:00`);
+  return date.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+const homeArticles = document.querySelector('[data-home-articles]');
+if (homeArticles && typeof portfolioArticles !== 'undefined') {
+  const latest = portfolioArticles.filter(a => a.published).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 2);
+  homeArticles.innerHTML = latest.map(article => `
+    <article class="home-article-card">
+      <div class="home-article-meta"><span>${article.category}</span><span>${formatHomeArticleDate(article.date)}</span></div>
+      <h3><a href="./article.html?id=${article.id}">${article.title}</a></h3>
+      <p>${article.excerpt}</p>
+      <a class="arrow-link" href="./article.html?id=${article.id}">Read article <span>↗</span></a>
+    </article>`).join('');
+}
